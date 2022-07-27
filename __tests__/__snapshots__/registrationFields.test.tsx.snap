@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+Array [
+  <div
+    className="mb-4"
+  >
+    <label
+      className="block text-gray-700 text-sm font-bold mb-2"
+      htmlFor="name"
+    >
+      Name
+    </label>
+    <input
+      className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+      id="name"
+      maxLength={30}
+      minLength={3}
+      placeholder="Name"
+      required={true}
+      type="text"
+    />
+  </div>,
+  <div
+    className="mb-6"
+  >
+    <label
+      className="block text-gray-700 text-sm font-bold mb-2"
+      htmlFor="email"
+    >
+      Email
+    </label>
+    <input
+      className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+      id="email"
+      maxLength={100}
+      placeholder="professor@pokelab.com"
+      required={true}
+      type="email"
+    />
+  </div>,
+  <div
+    className="mb-6"
+  >
+    <label
+      className="block text-gray-700 text-sm font-bold mb-2"
+      htmlFor="tour"
+    >
+      Island Tour
+    </label>
+    <select
+      className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+      id="tour"
+    >
+      <option
+        value="Florio"
+      >
+        Florio
+      </option>
+      <option
+        value="Voluca"
+      >
+        Voluca
+      </option>
+    </select>
+  </div>,
+  <div
+    className="flex items-center justify-between"
+  >
+    <button
+      className="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+      type="submit"
+      value="Submit"
+    >
+      Register!
+    </button>
+  </div>,
+]
+`;
